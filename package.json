@@ -1,0 +1,45 @@
+{
+  "name": "log-430-equipe-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node --max-old-space-size=4076 . ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab-ce.logti.etsmtl.ca/Seb/LOG-430-equipe-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/mosca": "^2.8.1",
+    "@types/nodemailer": "^6.2.2",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "bluebird": "^3.7.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^6.1.0",
+    "eslint": "^6.5.1",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0",
+    "mysql": "^2.12.2",
+    "nodemailer": "^6.3.1",
+    "pg": "^7.12.1",
+    "typescript-eslint": "0.0.1-alpha.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.11.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
