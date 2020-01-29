@@ -18,7 +18,7 @@ Brocker :
 Client :
 `node client.js`
 
-## 6. Configuration de la base de données
+## 5. Configuration de la base de données
 1. Installer [MySql](https://nodejs.org/en/download/current/)
 2. Executer la requête suivante `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD'`
 3. `node server/database/create_database.js`
