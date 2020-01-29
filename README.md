@@ -11,7 +11,7 @@ Pour installer les modules nodes, il faut entrer la commande suivante.
 Pour lancer le programme, il faut entrer la commande suivante.
 `npm run start`
 
-## 4. Lancer le brocker et les clients
+## 4. Lancer le broker et les clients
 Brocker :
 `node moscaBroker.js`
 
